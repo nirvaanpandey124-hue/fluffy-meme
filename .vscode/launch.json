@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run Turtle Shooter",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/turtle_shooter.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Launch Browser Game",
+            "type": "pwa-msedge",
+            "request": "launch",
+            "url": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
