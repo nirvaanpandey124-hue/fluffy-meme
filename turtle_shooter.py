@@ -110,7 +110,7 @@ while True:
     # Game Over
     if enemy.distance(player) < 25:
         pen.goto(-80, 0)
-        pen.write("GAME OVER", font=("Arial", 24, "bold"))
+        pen.write("GAME OVER", font=("Arial", 25, "bold"))
         break
 
 screen.mainloop()
